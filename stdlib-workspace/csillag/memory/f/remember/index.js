@@ -14,7 +14,5 @@
 *   - {Any} returnValue JSON serializable (or Buffer) return value
 */
 module.exports = (params, callback) => {
-
-  callback(null, 'hello world');
-
+    callback(null, "OK, I'll try to remember " + params.args[0] + " and " + params.args[1] + ".");
 };
