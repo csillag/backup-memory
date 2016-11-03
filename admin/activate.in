@@ -1,0 +1,5 @@
+
+
+. $ADMIN/venv/bin/activate
+
+export PATH=$TOOL_ROOT/node_modules/.bin:$PATH
